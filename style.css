@@ -32,8 +32,15 @@ header nav ul li a {
 
 }
 
+.container h1 {
+    display: flex;
+    justify-content: center;
+}
+
 .container_carousel {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #carousel {
