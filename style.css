@@ -1,8 +1,31 @@
+header {
+    background-color: blue;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header nav ul li {
+    color: white;
+    font-weight: bold;
+}
+
+.container_carousel {
+    width: 30%;
+}
+
 #carousel {
     padding-top: 30px;
 }
 
 #carousel img {
     height: 400px;
-
+    width: 600px;
 }

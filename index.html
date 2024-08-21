@@ -8,20 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Nome do site</h1>
+            <nav>
+                <ul>
+                    <li>Esportes</li>
+                    <li>Dança</li>
+                    <li>Fofoca</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div class="container">
-        <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
-                    <img src="imagens/imagem1.jpeg" alt="img placeholder">
+        <div class="container_carousel">
+            <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="imagens/imagem1.jpeg" alt="img placeholder">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagens/imagem2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagens/imagem3.jpeg" alt="">
+                    </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="imagens/imagem2.jpg" alt="">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="imagens/imagem3.jpeg" alt="">
-                </div>
+                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
-        </div>            
+        </div>
     </div>
 
 
