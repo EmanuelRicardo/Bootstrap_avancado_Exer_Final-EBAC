@@ -1,5 +1,9 @@
+body {
+    background-color: gray;
+}
+
 header {
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
 
 header .container {
@@ -10,6 +14,10 @@ header .container {
 
 header h1 {
     color: white;
+}
+
+header nav ul {
+    padding-top: 12px;
 }
 
 header nav ul li {
@@ -25,7 +33,7 @@ header nav ul li a {
 }
 
 .container_carousel {
-    width: 30%;
+    width: 90%;
 }
 
 #carousel {
@@ -34,5 +42,5 @@ header nav ul li a {
 
 #carousel img {
     height: 400px;
-    width: 600px;
+    width: 100%;
 }
