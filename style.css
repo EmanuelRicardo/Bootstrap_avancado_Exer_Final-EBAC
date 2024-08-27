@@ -52,7 +52,15 @@ header nav ul li a {
     width: 100%;
 }
 
+#tabs_jogos {
+    padding-top: 50px;
+}
+
 #tabs_jogos button {
     color: black;
     font-weight: bold;
 }
+
+.tab-content .tab-pane {
+    padding-top: 20px;
+} 
