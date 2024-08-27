@@ -51,3 +51,8 @@ header nav ul li a {
     height: 400px;
     width: 100%;
 }
+
+#tabs_jogos button {
+    color: black;
+    font-weight: bold;
+}
