@@ -57,6 +57,10 @@ header nav ul li a {
     width: 100%;
 }
 
+#tab {
+    padding-bottom: 120px;
+}
+
 #tabs_jogos {
     padding-top: 50px;
 }
