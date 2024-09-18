@@ -85,6 +85,10 @@ header nav ul li a {
     padding-bottom: 30px;
 }
 
+form {
+    padding-bottom: 35px;
+}
+
 form label {
     font-weight: bold;
 }
