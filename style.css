@@ -80,6 +80,11 @@ header nav ul li a {
     width: 100%;
 }
 
+.h1_classes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 form label {
     font-weight: bold;
 }
