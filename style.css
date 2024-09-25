@@ -76,6 +76,11 @@ header nav ul li a {
     padding-top: 20px;
 } 
 
+.tab-content .tab-pane .row {
+    display: flex;
+    justify-content: center;
+}
+
 .tab-content .tab-pane img {
     width: 100%;
 }
