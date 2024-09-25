@@ -104,6 +104,17 @@ form label {
     font-size:35px;
 }
 
+.card-body .modal .modal-body picture {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body .modal .modal-body img {
+    width: 200px;
+    height: 200px;
+}
+
+
 .card img {
     height: 350px;
 }
