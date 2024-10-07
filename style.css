@@ -31,12 +31,13 @@ header nav ul li {
     font-weight: bold;
     list-style: none;
     display: inline;
-    padding-left: 10px;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 header nav ul li a {
     color: white;
-
+    text-decoration: none;
 }
 
 .container h1 {
@@ -128,4 +129,12 @@ form label {
 footer {
     background-color: black;
     padding-bottom: 1px;
+    padding-top: 5px;
+}
+
+footer p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
