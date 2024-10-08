@@ -135,6 +135,11 @@ form label {
     font-size:35px;
 }
 
+.card-body .modal .modal-header {
+    display: flex;
+    justify-content: center;
+}
+
 .card-body .modal .modal-body picture {
     display: flex;
     justify-content: center;
@@ -165,6 +170,12 @@ footer p {
     align-items: center;
 }
 
-p, h1, h3, form {
+p, 
+h1, 
+h3, 
+form,
+.card-body .modal .modal-header h1 {
     color: #00ffee;
 }
+
+
