@@ -7,10 +7,14 @@
 
 body {
     background-color: gray;
+    background-image: url(imagens/background3_cortado2.avif);
+    background-size: cover;
+    background-position: center;
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: #0531d01f;
+    border-bottom: 2px solid black;
 }
 
 header .container {
@@ -20,7 +24,7 @@ header .container {
 }
 
 header h1 {
-    color: white;
+    color:  #004cff7a;
 }
 
 header nav ul {
@@ -36,11 +40,18 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: #0033ed74;
     text-decoration: none;
 }
 
 .container h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#parte_inicial h2 {
+    padding-top: 30px;
+    color: rgba(128, 128, 128, 0.397);
     display: flex;
     justify-content: center;
 }
@@ -57,8 +68,22 @@ header nav ul li a {
 
 #carousel img {
     height: 400px;
-    width: 100%;
+    width: 1000px;
 }
+
+#carousel button span {
+    background-color: rgb(0, 0, 0);
+
+}   
+
+#carousel .carousel-indicators button {
+    background-color:rgb(6, 141, 238) ;
+}
+
+#carousel .carousel-indicators .active {
+    background-color:rgb(39, 6, 253) ;
+}
+
 
 #tab {
     padding-bottom: 120px;
@@ -69,7 +94,7 @@ header nav ul li a {
 }
 
 #tabs_jogos button {
-    color: black;
+    color: #00FFFF;
     font-weight: bold;
 }
 
@@ -127,9 +152,10 @@ form label {
 
 
 footer {
-    background-color: black;
+    background-color: #0033ed1f;
     padding-bottom: 1px;
     padding-top: 5px;
+    border-top: 2px solid black;
 }
 
 footer p {
@@ -137,4 +163,8 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+p, h1, h3, form {
+    color: #00ffee;
 }
