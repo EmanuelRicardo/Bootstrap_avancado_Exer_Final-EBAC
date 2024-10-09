@@ -67,8 +67,8 @@ header nav ul li a {
 }
 
 #carousel img {
-    height: 400px;
     width: 1000px;
+    height: 400px;
 }
 
 #carousel button span {
@@ -101,6 +101,7 @@ header nav ul li a {
 .tab-content .tab-pane {
     padding-top: 20px;
 } 
+
 
 .tab-content .tab-pane .row {
     display: flex;
@@ -178,6 +179,35 @@ h3,
 form,
 .card-body .modal .modal-header h1 {
     color: #00ffee;
+}
+
+@media screen and (max-width: 1180px){
+
+    #carousel img {
+        width: 580px;
+        height: 300px;
+    }
+
+    .tab-content .tab-pane img {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    header .container {
+        display: inline;
+        text-align: center;
+    }
+
+    #carousel img {
+        width: 330px;
+        height: 200px;
+    }
+
+    .tab-content .tab-pane img {
+        padding-bottom: 25px;
+    }
 }
 
 
