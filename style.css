@@ -39,7 +39,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgba(255, 255, 255, 0.52);
     text-decoration: none;
 }
 
@@ -218,7 +218,11 @@ form,
     }
 
     .navbar .container h1 {
-        color: #007bff;
+        color: white;
+    }
+
+    #menu_tela_pequena ul li a {
+        color: rgba(255, 255, 255, 0.52);
     }
 
     .tab-content .tab-pane img {
