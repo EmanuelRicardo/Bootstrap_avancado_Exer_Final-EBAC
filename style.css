@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color: gray;
     background-image: url(imagens/background3_cortado2.avif);
     background-size: cover;
     background-position: center;
@@ -24,7 +23,7 @@ header .container {
 }
 
 header h1 {
-    color:  #004cff7a;
+    color: white;
 }
 
 header nav ul {
@@ -40,8 +39,12 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #0033ed74;
+    color: white;
     text-decoration: none;
+}
+
+#header_tela_pequena {
+    display: none;
 }
 
 .container h1 {
@@ -51,7 +54,7 @@ header nav ul li a {
 
 #parte_inicial h2 {
     padding-top: 30px;
-    color: rgba(128, 128, 128, 0.397);
+    color: rgba(128, 128, 128, 0.57);
     display: flex;
     justify-content: center;
 }
@@ -196,13 +199,26 @@ form,
 @media screen and (max-width: 660px) {
 
     header .container {
-        display: inline;
+        display: flex;
         text-align: center;
+        padding: 20px;
     }
 
     #carousel img {
         width: 330px;
         height: 200px;
+    }
+
+    header #header_tela_grande {
+        display: none;
+    }
+
+    #header_tela_pequena {
+        display: inline;
+    }
+
+    .navbar .container h1 {
+        color: #007bff;
     }
 
     .tab-content .tab-pane img {
