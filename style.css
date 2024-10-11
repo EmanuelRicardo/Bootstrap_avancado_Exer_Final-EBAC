@@ -206,7 +206,7 @@ form,
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
 
     header .container {
         display: flex;
