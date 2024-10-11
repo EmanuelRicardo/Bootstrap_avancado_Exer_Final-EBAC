@@ -206,7 +206,7 @@ form,
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
 
     header .container {
         display: flex;
@@ -215,7 +215,7 @@ form,
     }
 
     #carousel img {
-        width: 351px;
+        width: 99%;
         height: 230px;
     }
 
