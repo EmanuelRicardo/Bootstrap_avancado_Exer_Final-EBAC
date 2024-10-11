@@ -142,8 +142,7 @@ form label {
 }
 
 .card-body .modal .modal-header {
-    display: flex;
-    justify-content: center;
+    display: grid;
 }
 
 .card-body .modal .modal-body picture {
